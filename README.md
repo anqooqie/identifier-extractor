@@ -1,5 +1,7 @@
 # identifier-extractor
 
+[![Build Status](https://travis-ci.org/anqooqie/identifier-extractor.svg)](https://travis-ci.org/anqooqie/identifier-extractor)
+
 This program parses java files and extracts identifiers from them as JSON.
 
 ## Usage
