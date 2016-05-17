@@ -1,0 +1,4 @@
+sudo: false
+language: java
+before_install:
+  - jdk_switcher use oraclejdk8
