@@ -5,10 +5,12 @@
 This program parses java files and extracts identifiers from them as JSON.
 
 ## Usage
-    git clone https://github.com/anqooqie/identifier-extractor.git
-    cd identifier-extractor
-    mvn compile package dependency:copy-dependencies
-    java -jar target/identifier-extractor-"$(mvn help:evaluate -Dexpression=project.version | grep -v INFO)".jar <input >output
+```bash
+git clone https://github.com/anqooqie/identifier-extractor.git
+cd identifier-extractor
+mvn compile package dependency:copy-dependencies
+java -jar target/identifier-extractor-"$(mvn help:evaluate -Dexpression=project.version | grep -v INFO)".jar <input >output
+```
 
 ## Example of Input
     /path/to/java/file
